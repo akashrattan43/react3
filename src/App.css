@@ -1,0 +1,52 @@
+.app {
+  background-color: grey;
+  height: 100%;
+}
+
+
+nav {
+  background: skyblue;
+  padding: 25px;
+  text-align: left;
+  font-weight: 800;
+}
+
+.numbers {
+  display: flex;
+  justify-content: flex-end;
+  margin: 25px;
+  font-size: 2rem;
+  font-weight: 800;
+}
+
+.card {
+  height: 50vh;
+  width: 70vw;
+  background: white;
+  margin: 50px auto;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  align-items: center;
+  padding-bottom: 200px;
+}
+
+
+button {
+  background: skyblue;
+  padding: 15px;
+  height: 50px;
+  border-radius: 10px;
+  border: 0;
+  color: white;
+  margin: 10px;
+  font-size: 1.25rem;
+}
+
+.previous, .next {
+  color: springgreen;
+  font-weight: 600;
+}
